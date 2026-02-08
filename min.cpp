@@ -5,7 +5,7 @@ int main(){
     int n;
     cout<<"Enter the size of arry: ";
     cin>>n;
-    int *arr= new int [n];
+    int *arr= new int[n];
     cout<<"Enter the "<<n<<" elements: ";
     for(int i=0;i<n;i++)
     cin>>arr[i];
